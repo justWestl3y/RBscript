@@ -1,3 +1,4 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 local colors = {
 	-- Цвет фона у Секций
     SchemeColor = Color3.fromRGB(150, 72, 148),
@@ -13,3 +14,4 @@ local colors = {
 
 local Window = Library.CreateLib("Name", "RJTheme3")
 local Tab = Window:NewTab("TabName")
+Section:NewLabel("LabelText")
